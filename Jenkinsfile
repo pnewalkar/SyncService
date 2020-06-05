@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/pnewalkar/Maintel.Icon.Portal.Sync.AutotaskAPI.Spec'
+     git 'https://github.com/pnewalkar/SyncService'
    }
    stage('Dotnet Build'){
    // def mvnHome =  tool name: 'maven_3_5_0', type: 'maven'   
