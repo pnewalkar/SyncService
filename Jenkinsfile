@@ -2,12 +2,12 @@ node{
    stage('SCM Checkout'){
      git 'https://github.com/pnewalkar/SyncService'
    }
-   stage('Dotnet Build'){
+   stage('Dotnet Restore'){
    // def mvnHome =  tool name: 'maven_3_5_0', type: 'maven'   
-      sh "dotnet build"
+        sh "dotnet restore --configfile NuGet.Config"
    }
-     // stage('Deploy'){
-      //def mvnHome =  tool name: 'maven_3_5_0', type: 'maven'   
-      //sh "${mvnHome}/bin/mvn deploy"
-   //}
+    stage('DOtnet Build'){
+   //def mvnHome =  tool name: 'maven_3_5_0', type: 'maven'   
+        sh 'dotnet build --configuration Release'
+   }
 }
