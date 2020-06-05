@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintel.Icon.Portal.SyncService", "Maintel.Icon.Portal.SyncService\Maintel.Icon.Portal.SyncService.csproj", "{CBE05ADD-D57E-4724-A097-78CCA0DBDB24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintel.Icon.Portal.Domain", "..\Domain\Maintel.Icon.Portal.Domain.csproj", "{0970C8B5-91D1-46CA-B95D-FE8EF5C2C465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintel.Icon.Portal.SyncService.Autotask", "..\Maintel.Icon.Portal.SyncService.Autotask\Maintel.Icon.Portal.SyncService.Autotask.csproj", "{5A55A611-5E68-4902-BB02-2BE75277517C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintel.Icon.Portal.API.Dal", "..\API\Dal\Dal\Maintel.Icon.Portal.API.Dal.csproj", "{B0B5C7D1-FBA2-42C8-91C1-ABA3EBD165F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintel.Icon.Portal.SyncService.Highlight", "Maintel.Icon.Portal.SyncService.Highlight\Maintel.Icon.Portal.SyncService.Highlight.csproj", "{A78122F3-D658-47A0-9C6A-17D6ACEA2F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintel.Icon.Portal.Permissions.Dal", "Maintel.Icon.Portal.Permissions.Dal\Maintel.Icon.Portal.Permissions.Dal.csproj", "{61CDC24E-7FF5-43B2-85EC-8D3527032819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintel.Icon.Portal.Permissions.APIAccess", "Maintel.Icon.Portal.Permissions.APIAccess\Maintel.Icon.Portal.Permissions.APIAccess.csproj", "{7A061A03-9371-4E51-B081-5D101DB0EA4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE05ADD-D57E-4724-A097-78CCA0DBDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE05ADD-D57E-4724-A097-78CCA0DBDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE05ADD-D57E-4724-A097-78CCA0DBDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE05ADD-D57E-4724-A097-78CCA0DBDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0970C8B5-91D1-46CA-B95D-FE8EF5C2C465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0970C8B5-91D1-46CA-B95D-FE8EF5C2C465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0970C8B5-91D1-46CA-B95D-FE8EF5C2C465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0970C8B5-91D1-46CA-B95D-FE8EF5C2C465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A55A611-5E68-4902-BB02-2BE75277517C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A55A611-5E68-4902-BB02-2BE75277517C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A55A611-5E68-4902-BB02-2BE75277517C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A55A611-5E68-4902-BB02-2BE75277517C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B5C7D1-FBA2-42C8-91C1-ABA3EBD165F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B5C7D1-FBA2-42C8-91C1-ABA3EBD165F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B5C7D1-FBA2-42C8-91C1-ABA3EBD165F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B5C7D1-FBA2-42C8-91C1-ABA3EBD165F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78122F3-D658-47A0-9C6A-17D6ACEA2F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78122F3-D658-47A0-9C6A-17D6ACEA2F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78122F3-D658-47A0-9C6A-17D6ACEA2F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78122F3-D658-47A0-9C6A-17D6ACEA2F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CDC24E-7FF5-43B2-85EC-8D3527032819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CDC24E-7FF5-43B2-85EC-8D3527032819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CDC24E-7FF5-43B2-85EC-8D3527032819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CDC24E-7FF5-43B2-85EC-8D3527032819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A061A03-9371-4E51-B081-5D101DB0EA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A061A03-9371-4E51-B081-5D101DB0EA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A061A03-9371-4E51-B081-5D101DB0EA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A061A03-9371-4E51-B081-5D101DB0EA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46E31B6C-23A7-471E-9FDD-AF4F634AD108}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/maintel
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Domain\\Maintel.Icon.Portal.Domain.csproj
+		SccProjectName1 = ../Domain
+		SccLocalPath1 = ..\\Domain
+		SccProjectUniqueName2 = ..\\Maintel.Icon.Portal.SyncService.Autotask\\Maintel.Icon.Portal.SyncService.Autotask.csproj
+		SccProjectName2 = ../Maintel.Icon.Portal.SyncService.Autotask
+		SccLocalPath2 = ..\\Maintel.Icon.Portal.SyncService.Autotask
+		SccProjectUniqueName3 = Maintel.Icon.Portal.SyncService\\Maintel.Icon.Portal.SyncService.csproj
+		SccProjectName3 = Maintel.Icon.Portal.SyncService
+		SccLocalPath3 = Maintel.Icon.Portal.SyncService
+		SccProjectUniqueName4 = ..\\API\\Dal\\Dal\\Maintel.Icon.Portal.API.Dal.csproj
+		SccProjectName4 = ../API/Dal/Dal
+		SccLocalPath4 = ..\\API\\Dal\\Dal
+		SccProjectUniqueName5 = Maintel.Icon.Portal.SyncService.Highlight\\Maintel.Icon.Portal.SyncService.Highlight.csproj
+		SccProjectName5 = Maintel.Icon.Portal.SyncService.Highlight
+		SccLocalPath5 = Maintel.Icon.Portal.SyncService.Highlight
+		SccProjectUniqueName6 = Maintel.Icon.Portal.Permissions.Dal\\Maintel.Icon.Portal.Permissions.Dal.csproj
+		SccProjectName6 = Maintel.Icon.Portal.Permissions.Dal
+		SccLocalPath6 = Maintel.Icon.Portal.Permissions.Dal
+		SccProjectUniqueName7 = Maintel.Icon.Portal.Permissions.APIAccess\\Maintel.Icon.Portal.Permissions.APIAccess.csproj
+		SccProjectName7 = Maintel.Icon.Portal.Permissions.APIAccess
+		SccLocalPath7 = Maintel.Icon.Portal.Permissions.APIAccess
+	EndGlobalSection
+EndGlobal
